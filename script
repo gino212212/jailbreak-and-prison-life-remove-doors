@@ -1,0 +1,5 @@
+local doors = workspace:FindFirstChild("Doors")
+if not doors then return end
+for i,v in pairs(doors:GetChildren()) do
+v:Destroy()
+end 
